@@ -1,3 +1,13 @@
 body {
   font-family: "Oswald", sans-serif;
 }
+
+.hero {
+  background: #1a2639;
+  color: #d9dad7;
+  text-align: start;
+  padding: 30px;
+}
+.logo {
+  max-width: 80px;
+}
