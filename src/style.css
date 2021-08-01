@@ -5,7 +5,6 @@ body {
 .hero {
   background: #1a2639;
   color: #d9dad7;
-  text-align: start;
   padding: 30px;
 }
 .logo {
@@ -14,5 +13,6 @@ body {
 }
 
 .homepage {
-  max-width: 400px;
+  max-width: 100%;
+  max-height: 100%;
 }
