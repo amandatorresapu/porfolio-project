@@ -10,4 +10,9 @@ body {
 }
 .logo {
   max-width: 80px;
+  max-height: 70px;
+}
+
+.homepage {
+  max-width: 400px;
 }
