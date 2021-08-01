@@ -16,6 +16,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/style.css" />
     <script
       src="https://kit.fontawesome.com/3be5a88cdc.js"
@@ -24,41 +25,34 @@
     <title>Train-Torres.com services we offer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img class="logo" src="images/Logo.png" alt=""
-        /></a>
+        <a class="navbar-brand" href="#">TT</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact us</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About me</a>
+            <a class="nav-link" href="contact.html#contact">Contact me</a>
+          </div>
         </div>
       </div>
     </nav>
+ 
     <div class="hero">
-      <h1>Training services</h1>
+      <h1 class="rounded mt-5">Training services</h1>
     </div>
      <div class="container">
       <div class="row">
@@ -78,7 +72,8 @@
           <img
             src="Images/one-on-one.jpg"
             class="homepage image-fluid rounded p-2 d-none d-lg-block"
-            alt=""
+            alt="One on one"
+            id="image"
           />
         </div>
       </div>
@@ -86,8 +81,8 @@
         <div class="col-sm-6 mt-5 mb-3">
           <img
             src="images/partner.jpg"
-            class="homepage image-fluid rounded p-2 d-none d-lg-block"
-            alt=""
+            class="homepage image-fluid  p-2 d-none d-lg-block"
+            alt="Partner training"
           />
         </div>
         <div class="col-sm-6 mt-5 mb-3">
@@ -121,7 +116,7 @@
           <img
             src="images/location.jpg"
             class="homepage image-fluid rounded p-2 d-none d-lg-block"
-            alt=""
+            alt="Our location"
           />
         </div>
       </div>
