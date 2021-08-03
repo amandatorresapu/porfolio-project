@@ -6,6 +6,24 @@ body {
 footer {
   text-align: center;
 }
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: larger;
+}
+nav ul {
+  margin: 50px;
+}
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: white;
+}
 
 .btn {
   background-color: #1a2639;
@@ -17,8 +35,8 @@ footer {
   padding: 30px;
 }
 .logo {
-  max-width: 80px;
-  max-height: 70px;
+  max-width: 150px;
+  max-height: 150;
 }
 
 .homepage {
