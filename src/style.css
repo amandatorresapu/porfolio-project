@@ -50,3 +50,16 @@ nav a:hover {
 .shecodes {
   text-align: center;
 }
+
+.work-inquiry {
+  margin: 60px;
+  text-align: center;
+
+  color: aliceblue;
+}
+
+.work-inquiry a {
+  background-color: antiquewhite;
+  color: #1a2639;
+  margin-bottom: 10px;
+}
