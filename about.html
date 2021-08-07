@@ -25,34 +25,19 @@
     <title>Train-Torres.com services we offer</title>
   </head>
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">TT</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="about.html">About me</a>
-            <a class="nav-link" href="contact.html#contact">Contact me</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+   <div class="container header">
+      <nav class="d-flex justify-content-between mt-2">
+        <img src="Images/Logo.png" class="logo d-none d-md-block" alt="" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
  
     <div class="hero">
-      <h1 class="rounded mt-5">Training services</h1>
+      <h1 class="rounded mt-2">Training services</h1>
     </div>
      <div class="container">
       <div class="row">
@@ -93,7 +78,7 @@
             molestiae adipisci vero, eum nostrum a ratione cupiditate
             voluptates, sed accusantium qui.
           </p>
-          <a class="btn btn-primary" href="about.html" role="button"
+          <a class="btn btn-primary" href="contact.html" role="button"
             >Sign up</a
           >
         </div>
@@ -121,11 +106,35 @@
         </div>
       </div>
       </div>
-       <footer>
-      Created by
-      <a href="https://github.com/amandatorresapu/porfolio-project.git"
-        >Amanda Torres</a
+        <footer>
+      <div class="contact-box d-flex justify-content-between d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p>Lets work together</p>
+        </div>
+        <div>
+          <a href="contact.html" class="btn btn-secondary">Contact me</a>
+        </div>
+      </div>
+      <a
+        href="mailto:amandatorresapu@gmail.com"
+        class="d-flex justify-content-center email-link d-none d-md-flex"
+        >amandatorresapu@gmail.com</a
       >
+      <div class="d-flex justify-content-center social-links">
+        <a href="https://github.com/amandatorresapu" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/amanda-torres-brooks-6826b15a/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+
+        <a href="mailto:amandatorresapu@gmail.com" target="_blank"
+          ><i class="fas fa-envelope-square"></i
+        ></a>
+      </div>
     </footer>
   </body>
 </html>

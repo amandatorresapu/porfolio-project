@@ -25,7 +25,7 @@ nav a {
   color: black;
 }
 nav a:hover {
-  color: white;
+  color: #3f9cf6;
 }
 
 .btn {
@@ -100,4 +100,10 @@ footer .contact-box {
   padding: 30px;
   margin-bottom: 70px;
   border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  nav {
+    font-size: 12px;
+  }
 }
